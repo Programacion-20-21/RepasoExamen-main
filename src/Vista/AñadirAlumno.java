@@ -125,7 +125,7 @@ public class AñadirAlumno extends javax.swing.JPanel {
     private void jButtonAñadirMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButtonAñadirMouseClicked
         // TODO add your handling code here:
        String nombre = jTextFieldNombre.getText();
-        int edad = Integer.valueOf(jTextFieldEdad.getText());
+        int edad = Integer.parseInt(jTextFieldEdad.getText());
     }//GEN-LAST:event_jButtonAñadirMouseClicked
 
     
